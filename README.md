@@ -14,7 +14,7 @@ The simulator was tested on Ubuntu 20.04 with ROS 2 Foxy Fitzroy (desktop versio
 
 Clone the repository and run build command `colcon build` in the `/workspace` directory. Do not forget to source the environment using `. install/setup.bash` after that.
 
-## Testing
+## Testing and Examples
 
 Run the simulator: `ros2 run interfacing_simulator simulator`
 
@@ -22,6 +22,6 @@ See the available topics / services / actions: `ros2 topic list` / `ros2 service
 
 See the data being published on a topic: `ros2 topic echo /factory/robot_1/pose`
 
-Call a service: `TODO`
+Call a service: `ros2 service call /factory/robot_1/assigned_task ricaip_interfaces/srv/AssignedTask`
 
-Call an action: `TODO`
+Call an action: `ros2 action send_goal /factory/robot_1/task_go_home ricaip_interfaces/action/TaskGoHome "task_id: 'dfs654657f'"`
