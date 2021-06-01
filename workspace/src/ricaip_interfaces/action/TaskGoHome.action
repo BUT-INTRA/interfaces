@@ -1,0 +1,7 @@
+# Request
+string task_id
+---
+# Result
+bool success
+---
+# Feedback

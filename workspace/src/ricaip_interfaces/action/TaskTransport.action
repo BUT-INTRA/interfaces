@@ -1,0 +1,9 @@
+# Request
+string task_id
+geometry_msgs/PoseStamped pose_from
+geometry_msgs/PoseStamped pose_to
+---
+# Result
+bool success
+---
+# Feedback
