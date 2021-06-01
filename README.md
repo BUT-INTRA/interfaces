@@ -1,6 +1,6 @@
 # Interfacing Simulator
 
-This repository contains a simple ROS-based simulator for BUT-INTRA interfacing testing. The simulator comprises two virtual robots moving around, each offering the interfaces defined in the `AI4DI: BUT-INTRA interfacing` document. Please note the robots are not able to navigate to desired coordinates, their trajectories are pre-programmed.
+This repository contains custom ROS interfaces and a simple simulator for BUT-INTRA interfacing testing. The interfaces and simulator are located in the `ricaip_interfaces` and `interfacing_simulator` packages, respectively. The simulator comprises two virtual robots moving around, each offering the interfaces defined in the [AI4DI_BUT-INTRA_interfacing.pdf](https://github.com/BUT-INTRA/interfacing_simulator/blob/main/AI4DI_BUT-INTRA_interfacing.pdf) document. Please note the robots are not able to navigate to desired coordinates, their trajectories are pre-programmed. Feel free to modify the code to simulate all necessary robot states.
 
 ## Environment
 
@@ -14,7 +14,7 @@ Clone the repository and run build command `colcon build` in the `/workspace` di
 
 Run the simulator: `ros2 run interfacing_simulator simulator`
 
-See the available topics/services/actions: `ros2 topic list` / `ros2 service list` / `ros2 action list`
+See the available topics / services / actions: `ros2 topic list` / `ros2 service list` / `ros2 action list`
 
 See the data being published on a topic: `ros2 topic echo /factory/robot_1/pose`
 
