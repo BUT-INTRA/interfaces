@@ -1,6 +1,6 @@
 # Interfacing Simulator
 
-This repository contains custom ROS interfaces and a simple simulator for BUT-INTRA interfacing testing. The interfaces and simulator are located in the `ricaip_interfaces` and `interfacing_simulator` packages, respectively. The simulator comprises two virtual robots moving around, each offering the interfaces defined in the [AI4DI_BUT-INTRA_interfacing.pdf](https://github.com/BUT-INTRA/interfacing_simulator/blob/main/AI4DI_BUT-INTRA_interfacing.pdf) document. Please note the robots are not able to navigate to desired coordinates, their trajectories are pre-programmed. Feel free to modify the code to simulate all necessary robot states.
+This repository contains custom ROS interfaces and a simple simulator for BUT-INTRA interfacing testing. The interfaces and simulator are located in the `ricaip_interfaces` and `interfacing_simulator` packages, respectively. The simulator comprises two virtual robots moving around, each offering the interfaces defined in the `AI4DI_BUT-INTRA_interfacing.pdf` document. Please note the robots are not able to navigate to desired coordinates, their trajectories are pre-programmed. Feel free to modify the code to simulate all necessary robot states.
 
 ## Environment
 
